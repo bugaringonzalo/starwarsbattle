@@ -1,11 +1,19 @@
 import React from 'react'
+import './NavBar.css'
 import Search from './Search'
+import Random from './Random'
+import Button from '@mui/material/Button'
 
 function NavBar() {
   return (
     <div>
-        <h1>Soy el NavBar</h1>
-        <Search />
+        <div className='navbar'>
+            <Search />
+            <Random />
+            <Button variant="" />
+            <Search />
+            <Random />
+        </div>
     </div>
   )
 }
