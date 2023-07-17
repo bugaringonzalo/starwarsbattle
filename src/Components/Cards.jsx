@@ -1,9 +1,12 @@
 import React from 'react'
+import './Cards.css'
+import Cardi from './Card'
 
 function Cards() {
   return (
-    <div>
-        <h1>Soy las Cards</h1>
+    <div className='cards'>
+        <Cardi />
+        <Cardi />
     </div>
   )
 }

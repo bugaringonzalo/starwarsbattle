@@ -10,7 +10,7 @@ function NavBar() {
         <div className='navbar'>
             <Search />
             <Random />
-            <Button variant="" />
+            <Button variant="contained">All Characters</Button>
             <Search />
             <Random />
         </div>

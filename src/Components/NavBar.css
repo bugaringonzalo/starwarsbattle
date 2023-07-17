@@ -1,5 +1,7 @@
 .navbar {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     background-color: darkblue;
     border: solid 1px red;
