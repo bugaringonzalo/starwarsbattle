@@ -34,7 +34,7 @@ export default function RecipeReviewCard({ character }) {
   };
 
   console.log(
-    `estoy en card y me llega character asi :${character ? character.name : ""}`
+    `estoy en card y me llega character asi y es importante aclarar esto porque estoy haciendo al mens un cambio :${character ? character.name : ""}`
   );
 
   return (
