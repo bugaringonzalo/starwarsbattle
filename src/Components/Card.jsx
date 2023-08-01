@@ -34,7 +34,7 @@ export default function RecipeReviewCard({ character }) {
   };
 
   console.log(
-    `estoy en card y me llega character asi :${character ? character.name : ""}`
+    `estoy en card y me llega character asi y es importante aclarar esto porque estoy haciendo al mens un cambio :${character ? character.name : ""}`
   );
 
   return (
@@ -42,7 +42,7 @@ export default function RecipeReviewCard({ character }) {
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            {character ? character.id : ""}
+            {character ? character.id : ""} es importante el character
           </Avatar>
         }
         action={
@@ -63,7 +63,7 @@ export default function RecipeReviewCard({ character }) {
         <Typography variant="body2" color="text.secondary">
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the
-          mussels, if you like.
+          mussels, if you like. Todo bien con esto pero habria que cambiarlo
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
